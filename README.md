@@ -33,7 +33,7 @@ STEP 5: Normalizing the data<BR>
 STEP 6: Splitting the data into test and train<BR>
 
 ##  PROGRAM:
-python
+```
 from google.colab import files
 import pandas as pd
 import io
@@ -79,7 +79,7 @@ print(X_test)
 print("Length of X_test:",len(X_test))
 
 
-
+```
 ## OUTPUT:
 ### DATA HEAD 
 ![Screenshot 2025-03-07 113129](https://github.com/user-attachments/assets/64ff6661-36d6-4691-9c0a-3a969b26313b)
